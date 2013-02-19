@@ -10,9 +10,9 @@
 		<footer id="colophon" role="contentinfo">
 			<div class="site-info">
 				<ul>
-					<li><a href="#">Just-N-Time Sports Photography, LLC</a></li>&#45;
-					<li><a href="#">503-449-3971</a></li>&#45;
-					<li><a href="#">CONTACT US</a></li>
+					<li><a href="#">Link 1</a></li>&#45;
+					<li><a href="#">Link 2</a></li>&#45;
+					<li><a href="#">Link 3</a></li>
 				</ul>
 			</div><!-- .site-info -->
 		</footer><!-- #colophon -->

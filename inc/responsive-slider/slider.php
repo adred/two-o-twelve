@@ -6,10 +6,8 @@ require_once(dirname(__FILE__) . '/slider_post_type.php');
 // Enqueue Flexslider Files
 function slider_scripts() {
 	wp_enqueue_script( 'jquery' );
-
-	wp_enqueue_style( 'flex-style', get_stylesheet_directory_uri() . '/inc/tpc-responsive-slider/css/flexslider.css' );
-	
-	wp_enqueue_script( 'flex-script', get_stylesheet_directory_uri() . '/inc/tpc-responsive-slider/js/jquery.flexslider-min.js', array( 'jquery' ), false, true );
+	wp_enqueue_style( 'flex-style', get_stylesheet_directory_uri() . '/inc/responsive-slider/css/flexslider.css' );
+	wp_enqueue_script( 'flex-script', get_stylesheet_directory_uri() . '/inc/responsive-slider/js/jquery.flexslider-min.js', array( 'jquery' ), false, true );
 }
 add_action( 'wp_enqueue_scripts', 'slider_scripts' );
 
@@ -105,4 +103,4 @@ function slider_shortcode() {
 add_shortcode( 'slider', 'slider_shortcode' );
 
 // Custom image size
-add_image_size('flex-slide', 818, 292, true);
+add_image_size('flex-slide', 600, 350, true);
