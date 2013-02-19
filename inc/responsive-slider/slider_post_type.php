@@ -34,7 +34,7 @@ function register_slides_posttype() {
 		'rewrite' 			=> array('slug' => 'slides', 'with_front' => false ),
 		'supports' 			=> $supports,
 		'menu_position' 	=> 27, // Where it is in the menu. Change to 6 and it's below posts. 11 and it's below media, etc.
-		'menu_icon' 		=> get_template_directory_uri() . '/inc/slider/images/icon.png',
+		'menu_icon' 		=> get_stylesheet_directory_uri() . '/inc/responsive-slider/img/icon.png',
 		'taxonomies'		=> $taxonomies
 	 );
 	 register_post_type('slides',$post_type_args);
