@@ -41,20 +41,6 @@
 				<a class="assistive-text" href="#content" title="<?php esc_attr_e( 'Skip to content', 'twentytwelve' ); ?>"><?php _e( 'Skip to content', 'twentytwelve' ); ?></a>
 				<?php wp_nav_menu( array( 'theme_location' => 'primary', 'menu_class' => 'nav-menu' ) ); ?>
 			</nav><!-- #site-navigation -->
-
-			<div class="wrapper">
-				<div class="wrapper">
-					<?php if (is_front_page()) : ?>
-						<div id="slider">
-							<?php //tpc_slider_template(); ?>
-						</div>
-					<?php else : ?>
-						<div id="featured-pages">
-							<?php do_action('featured_pages'); ?>
-						</div>
-					<?php endif; ?>
-				</div>
-			</div>
 		</header><!-- #masthead -->
 	</div>
 
